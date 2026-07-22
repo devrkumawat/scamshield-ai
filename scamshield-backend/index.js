@@ -16,6 +16,9 @@ import { notFound, errorHandler } from './middlewares/errorHandler.js';
 dotenv.config();
 
 const app = express();
+
+// Trust Render/Proxy headers
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 8001;
 
 // --- Core middleware ---
