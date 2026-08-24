@@ -1,17 +1,90 @@
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO & HEADER -->
+<div align="center">
+  <h1 align="center">🛡️ ScamShield AI</h1>
+
+  <p align="center">
+    <strong>Your Intelligent Guardian Against Digital Fraud & Deception.</strong>
+    <br />
+    <br />
+    <a href="https://scamshield-ai-synercloud.vercel.app/"><strong>View Live Demo »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/devrkumawat/scamshield-ai/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/devrkumawat/scamshield-ai/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- BADGES -->
 <div align="center">
 
-# ðŸ›¡ï¸ ScamShield AI
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://scamshield-ai-synercloud.vercel.app/)
+  [![Contributors](https://img.shields.io/github/contributors/devrkumawat/scamshield-ai.svg?style=for-the-badge)](https://github.com/devrkumawat/scamshield-ai/graphs/contributors)
+  [![Forks](https://img.shields.io/github/forks/devrkumawat/scamshield-ai.svg?style=for-the-badge)](https://github.com/devrkumawat/scamshield-ai/network/members)
+  [![Stargazers](https://img.shields.io/github/stars/devrkumawat/scamshield-ai.svg?style=for-the-badge)](https://github.com/devrkumawat/scamshield-ai/stargazers)
+  [![Issues](https://img.shields.io/github/issues/devrkumawat/scamshield-ai.svg?style=for-the-badge)](https://github.com/devrkumawat/scamshield-ai/issues)
+  [![MIT License](https://img.shields.io/github/license/devrkumawat/scamshield-ai.svg?style=for-the-badge)](https://github.com/devrkumawat/scamshield-ai/blob/master/LICENSE.txt)
 
-### Think before you click.
+</div>
 
-**AI-powered scam detection for texts, emails, WhatsApp, links, and screenshots â€” before they cost you.**
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Google Gemini](https://img.shields.io/badge/Google_Gemini-AI_Engine-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#-license)
+---
 
-[Live Demo](https://scamshield-ai-synercloud.vercel.app/) Â· [Report Bug](https://github.com/devrkumawat/scamshield-ai/issues) Â· [Request Feature](https://github.com/devrkumawat/scamshield-ai/issues)
+## 📖 About The Project
+
+**ScamShield AI** is an advanced, AI-driven fraud detection platform engineered to combat modern digital deception. As digital threats evolve rapidly, this application acts as a first line of defense against fake supplier invoices, manipulated UPI transaction screenshots, phishing attempts, and authority impersonation scams. 
+
+By analyzing suspicious text, URLs, images, and communications, ScamShield AI instantly delivers accurate risk assessments (`SAFE`, `SUSPICIOUS`, or `DANGEROUS`) with easy-to-understand explanations in under 3 seconds.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 🛠️ Built With
+
+* [![React][React.js]][React-url]
+* [![Tailwind][Tailwind CSS]][Tailwind-url]
+* [![Node][Node.js]][Node-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple example steps.
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+* Node.js (v18.x or higher)
+* npm
+  ```sh
+  npm install npm@latest -g
 
 </div>
 
