@@ -1,21 +1,30 @@
-// config/gemini.js — Google GenAI (Gemini 2.5 Flash) client
-import { GoogleGenAI } from '@google/genai';
-import dotenv from 'dotenv';
+// config/gemini.js
+
+import { GoogleGenAI } from "@google/genai";
+import dotenv from "dotenv";
 
 dotenv.config();
 
 const apiKey = process.env.GEMINI_API_KEY;
-const model = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
 
-if (!apiKey || apiKey === 'your_gemini_api_key_here') {
-  console.warn('⚠️  GEMINI_API_KEY not configured. AI classification will be skipped.');
+const model =
+  process.env.GEMINI_MODEL || "gemini-3.6-flash";
+
+if (!apiKey) {
+  console.warn(
+    "⚠️ GEMINI_API_KEY is not configured."
+  );
 }
 
-const ai = apiKey && apiKey !== 'your_gemini_api_key_here'
-  ? new GoogleGenAI({ apiKey })
+const ai = apiKey
+  ? new GoogleGenAI({
+      apiKey,
+    })
   : null;
 
-export const isGeminiEnabled = () => !!ai;
+export const isGeminiEnabled = () => {
+  return !!ai;
+};
 
 export const geminiModel = model;
 
